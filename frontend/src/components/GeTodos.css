@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.root {
+    flex-Grow: 1;
+    max-Width: 752;
+  }
+  
+  .title {
+    margin: 10px,
+  }
+  
+  
+  .card {
+    min-Width: 500px;
+  }
+  
+  .menuButton {
+    margin-Right: 20px
+  }
+  
+  .extendedIco {
+    margin-Right: 20px
+  }
+
+
+  .imgEmpty{
+    width:400px
+  }
+
+  .emptyTxt{
+    color: #3f51b5;
+  }
+
+  .alert{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    display: none;
+  }
+  
+
+  .alertShow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    display: flex;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+     -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+  .todoDone{
+    text-decoration: line-through;
+  }
+  .todonotDone{
+    text-decoration:unset;
+  }
+  
+  
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
